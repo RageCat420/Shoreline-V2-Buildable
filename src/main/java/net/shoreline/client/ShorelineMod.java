@@ -29,11 +29,10 @@ public class ShorelineMod implements ClientModInitializer
 
     public static String getFormattedVersion()
     {
-        return String.format(ClientFormatting.THEME + "%s " + Formatting.WHITE + "%s %s-%s",
+        return String.format(ClientFormatting.THEME + "%s " + Formatting.WHITE + "%s-%s",
                 ShorelineMod.MOD_NAME,
                 ShorelineMod.MOD_VER,
-                BuildConfig.BUILD_IDENTIFIER,
-                BuildConfig.HASH);
+                BuildConfig.BUILD_IDENTIFIER);
     }
 
     public static boolean isBaritonePresent()

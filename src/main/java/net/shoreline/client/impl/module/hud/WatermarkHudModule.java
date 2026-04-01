@@ -42,11 +42,10 @@ public class WatermarkHudModule extends HudModule
     {
         if (versionConfig.getValue())
         {
-            return String.format("%s " + Formatting.WHITE + "%s %s-%s",
+            return String.format("%s " + Formatting.WHITE + "%s-%s",
                                  ShorelineMod.MOD_NAME,
                                  ShorelineMod.MOD_VER,
-                                 BuildConfig.BUILD_IDENTIFIER,
-                                 BuildConfig.HASH);
+                                 BuildConfig.BUILD_IDENTIFIER);
         }
 
         return ShorelineMod.MOD_NAME;
