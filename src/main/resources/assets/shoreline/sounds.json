@@ -1,0 +1,46 @@
+{
+  "gui_click": {
+    "sounds": [
+      {
+        "name": "shoreline:gui_click",
+        "stream": false
+      }
+    ]
+  },
+
+  "twitter": {
+    "sounds": [
+      {
+        "name": "shoreline:twitter",
+        "stream": false
+      }
+    ]
+  },
+
+  "ios": {
+    "sounds": [
+      {
+        "name": "shoreline:ios",
+        "stream": false
+      }
+    ]
+  },
+
+  "discord": {
+    "sounds": [
+      {
+        "name": "shoreline:discord",
+        "stream": false
+      }
+    ]
+  },
+
+  "steam": {
+    "sounds": [
+      {
+        "name": "shoreline:steam",
+        "stream": false
+      }
+    ]
+  }
+}
